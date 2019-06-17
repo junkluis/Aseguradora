@@ -68,7 +68,7 @@ class Test(unittest.TestCase):
 
 	def test_cotizar_seguro_valor_adicional_hombres_jovenes_y_soltero(self):
 		valor = cot.cotizar_seguro("Guayaquil", 18, "hombre", "soltero", "", 0)
-		self.assertEqual(valor,'El valor calculado de su cotización es de 90.00')
+		self.assertEqual(valor,'El valor calculado de su cotización es de 70.00')
 
 	def test_cotizar_seguro_valor_adicional_mujer_con_osteoporosis(self):
 		valor = cot.cotizar_seguro("Guayaquil", 41, "mujer", "soltero", "osteoporosis", 0)
